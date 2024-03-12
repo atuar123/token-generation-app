@@ -6,7 +6,7 @@ import org.apache.commons.codec.digest.HmacUtils;
 
 import java.nio.charset.Charset;
 
-public class TranTokenUtil {git 
+public class TranTokenUtil {
 
     public static String generateToken(String currentTime, String secretKey, String message) {
         return "KMV1:" + currentTime + ":" + generateHMac(secretKey, message);
