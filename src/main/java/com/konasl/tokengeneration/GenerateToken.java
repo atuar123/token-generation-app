@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 public class GenerateToken {
     private static String secretKey = null;
     private static String projectId = null;
-    private static final String CURRENT_TIME_PATTERN = "yyMMddHHmmss";
+    private static final String CURRENT_TIME_PATTERN = "yyyyMMddHHmmss";
 
     public void generateTranToken() throws Exception {
 
